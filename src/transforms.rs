@@ -1,5 +1,4 @@
 mod polynomial1;
-pub use polynomial1::Polynomial1;
 
 mod polynomial2;
 pub use polynomial2::Polynomial2;
