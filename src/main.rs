@@ -1,6 +1,6 @@
 mod transforms;
-use crate::transforms::transform::*;
-use crate::transforms::*;
+use crate::transforms::transform::TransformRng;
+use crate::transforms::{Affine2, Polynomial2, Stochastic};
 use num_complex::Complex;
 
 fn main() {
